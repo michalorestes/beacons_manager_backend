@@ -1,0 +1,24 @@
+website: 
+     - login 
+    
+	- register beacons 
+     - asociate information with specific beacons 
+        title 
+        description 
+        images 
+        translations 
+        shoppping info (think about how it will be done in database) 
+		
+    - activate/deactivate beacons 
+    - remove beacons 
+    
+	
+	
+	
+	- display statistics 
+		most visited rooms 
+		most popular atractions 
+		least visited atractions 
+		least visited rooms 
+		Most interesting to buy 
+		

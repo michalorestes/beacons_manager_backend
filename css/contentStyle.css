@@ -1,0 +1,147 @@
+
+.loginPanel {
+	margin-top: 0px;
+	height: 200px;
+	width: 560px;
+	padding: 40px 40px 0 40px;
+}
+
+.loginPanel img {
+	width: 200px;
+	height: 130px;
+	float: right;
+}
+
+.loginPanel form {
+	float: left;
+}
+
+.loginPanel form input {
+	display: block;
+	margin-bottom: 15px;
+	height: 25px;
+    width: 250px;
+}
+
+#beaconsList {
+    margin-top: 150px;
+}
+
+.gridView {
+    width: 100%;
+     border-collapse: collapse;
+}
+
+
+
+.gridView tr {
+    border-bottom: solid 1px;
+    border-color: lightgray;
+}
+
+.gridView tr td, th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: left;
+
+}
+
+.gridView tr:hover  td {
+    background-color: #ededed;
+
+}
+
+.gridView tr td {
+
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 10pt;
+}
+
+.gridView tr th#tID {
+    width: 5%;
+}
+
+.gridView tr th#tUUID {
+    width: 10%;
+}
+.gridView tr th#tLocation {
+    width: 10%;
+}
+
+.gridView tr th#tName {
+    width: 45%;
+}
+
+.gridView tr td#tLikes {
+    width: 5%;
+}
+
+.gridView tr th#tViews {
+    width: 5%;
+}
+
+.gridView tr th#tOptions {
+width: 10%;
+}
+
+.gridView tr th#tAction {
+    width: 10%;
+}
+
+
+
+
+
+.simpleInput {
+    width: 100%;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: solid 1px lightblue;
+}
+
+.simpleInput:focus {
+    outline: none;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    border: none;
+    border-bottom: solid 1px lightblue;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+#beaconsList form {
+    width: 70%;
+    margin: auto;
+    padding-top:  50px;
+    padding-bottom: 50px;
+}
+
+#basicInfo {
+	line-height: 30px;
+}
+
+.tableBtn:focus {
+	outline: none;
+}
+
+#output {
+    width: 550px;
+    overflow-x: visible;
+}
+
+#json {
+    overflow-x: auto;
+}

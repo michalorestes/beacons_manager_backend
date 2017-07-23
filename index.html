@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Beacons Manager</title>
+        <link rel="stylesheet" type="text/css" href="css/masterStyle.css">
+        <link rel="stylesheet" type="text/css" href="css/contentStyle.css">
+        <link rel="stylesheet" type="text/css" href="css/navigationStyle.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="jquery/jquery-ui.min.js"></script>
+        <script src="jquery/jquery-ui.js"></script>
+
+    </head>
+
+    <body>
+        <div id="header">
+            <div id="top">
+                <div id="headerLeft">
+                    <button class="openSideNav" onclick="openSideNav()"></button><span>Beacons Manager</span>
+                </div>
+                <div id="headerMiddle">
+                    <input type="text" />
+                </div>
+                <div id="headerRight">
+                    <div>
+                        <div id="hrImage">
+                            <img src="https://cdn1.iconfinder.com/data/icons/ninja-things-1/1772/ninja-simple-512.png" />
+                        </div>
+
+                        <div id="hrName">
+                            <p>Welcome Michal</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+		<!-- Side Navigation -->
+            <div id="sideNav">
+				<div id="sideNavHeader">
+                    <h3>Beacons Manager</h3>
+					<button class="closeSideNav" onclick="openSideNav()"></button>
+				</div>
+                <ul id="topLinks">
+                    <li><a href="">Beacons</a></li>
+                    <li><a href="">Statistics</a></li>
+                </ul>
+			</div>
+        <script>
+		function openSideNav(){
+			//$("#sideNav").slideToggle();
+            $("#sideNav").toggle( "slide", { direction: "left"  }, 250 );
+            return false;
+		}
+
+		function closeSideNav(){
+
+			return false;
+		}
+        $("#sideNav").hide();
+	</script>
+
+    <div id="body">
+			<!-- Maing Content -->
+      <div id="content">
+				<div class="centerClass loginPanel">
+					<form method="post" action="index.html">
+						<input type="text" value="Login.." />
+						<input type="text" value="Password..." />
+						<input class="button" type="submit" value="Login" />
+					</form>
+					<img src="http://www.beacon-counselling.org.uk/wp-content/themes/beaconcounselling/library/images/branding/logo-lighthouse.svg" />
+				</div>
+      </div>
+    </div>
+        <!--
+        <div id="footer">
+            <div id="footer"><p>Footer</p></div>
+        </div>  -->
+  </body>
+
+</html>

@@ -1,0 +1,270 @@
+/***** GENERAL STYLE RULES *****/
+html, body, p {
+    margin: 0;
+    padding: 0;
+	font-family: sans-serif;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	background-color: #f4f4f4;
+}
+
+h1 {
+    font-size: 14pt;
+}
+
+ul li {
+    list-style: none;
+}
+
+.floatRight {
+    float: right;
+}
+
+.floatLeft {
+	float: left;
+}
+
+.padding{
+	padding: 30px;
+	overflow: hidden;
+}
+
+button {
+	background-color: orange;
+	width: 100px;
+	cursor: pointer;
+	border: none;
+	color: white;
+
+}
+
+button:hover {
+	background-color: darkorange;
+
+}
+
+select {
+	border-bottom: solid 1px #cccccc;
+	border-right:none;
+	border-top:none;
+	border-left:none;
+	padding-bottom: 4px;
+	padding-right:20px;
+}
+.centerClass {
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: white;
+	-webkit-box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.23);
+	-moz-box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.23);
+	box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.23);
+}
+
+
+.centerContainer {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+	background-color: rgb(255, 208, 10);
+	color: white;
+	text-transform: uppercase;
+	font-weight: 500;
+	border: none;
+    -webkit-box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.2);
+}
+
+.button2 {
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+}
+
+.button2:hover {
+    text-decoration: underline !important;
+}
+
+
+/***** MAIN LAYOUT *****/
+
+#content {
+    margin-top: 80px;
+}
+#header {
+    width: 100%;
+    background-color: #FFC107;
+	color: white;
+	-webkit-box-shadow: 0px 2px 16px 0px rgba(0,0,0,0.46);
+	-moz-box-shadow: 0px 2px 16px 0px rgba(0,0,0,0.46);
+	box-shadow: 0px 2px 16px 0px rgba(0,0,0,0.46);
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+#top {
+    width: 100%;
+    height: 50px;
+	display: flex;
+}
+
+#headerNav {
+    width: 60%;
+    height: 30px;
+    padding-top: 40px;
+}
+
+#headerNav ul {
+    padding: 0;
+    margin: 0;
+}
+
+#headerNav ul li {
+    display: inline;
+    padding: 0;
+    margin: 0;
+    margin-right: 30px;
+}
+
+#headerNav ul li a {
+    text-decoration: none;
+}
+
+#headerLeft {
+	height: 100%;
+	margin: 0px;
+	float: left;
+	margin-left: 20px;
+}
+
+#headerLeft span {
+	margin-top: 14px;
+	margin-left: 15px;
+	font-size: 15pt;
+	font-family: sans-serif;
+	color: white;
+	float: left;
+}
+
+button.openSideNav {
+	width: 25px;
+	height: 25px;
+	background-image: url(https://i.stack.imgur.com/Fw96Z.png);
+	background-size: contain;
+	border: none;
+	background-color: rgba(0,0,0,0);
+	margin: 13px 0 0 0;
+	padding: 0px;
+	float: left;
+	display: block;
+}
+
+button#openSideNav:focus {
+	outline: 0;
+}
+
+button.closeSideNav {
+	width: 25px;
+	height: 25px;
+	background-image: url(https://i.stack.imgur.com/Fw96Z.png);
+	background-size: contain;
+	border: none;
+	background-color: rgba(0,0,0,0);
+	margin: 0;
+	padding: 0px;
+	float: right;
+	display: block;
+}
+
+button#closeSideNav:focus {
+	outline: 0;
+}
+
+#headerMiddle {
+	flex-grow: 1;
+	float: left;
+	padding-top:  10px;
+}
+
+#headerMiddle input {
+	padding: 10px 20px 10px 20px;
+	width: 70%;
+	height: 10px;
+	border: solid 0px;
+	border-color:#FFAB00;
+	border-radius: 30px;
+	display: block;
+    margin : 0 auto;
+}
+
+#headerMiddle input:focus {
+	outline: 0;
+}
+
+#headerRight {
+	float: right;
+	display: flex;
+	height: 100%;
+	margin-right: 20px;
+}
+
+#hrName {
+	float: right;
+}
+
+#hrName p {
+	margin-top: 15px;
+}
+
+#hrImage {
+	float: right;
+	margin-left: 10px;
+}
+
+#headerRight div img {
+	margin-top: 8px;
+	width: 30px;
+	height: 30px;
+}
+
+#body {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    padding-bottom: 100px;
+}
+
+#footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
+}
+
+.button3 {
+    text-transform: uppercase;
+    color: orange;
+    background-color: white;
+    border: none;
+    cursor: hand;
+}
+
+.button3:hover {
+    text-decoration: underline;
+
+}
